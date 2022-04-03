@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Image Uploader</h1>
+<form enctype="multipart/form-data" method="POST" action="showimage">
+    {% csrf_token %}
+    <input type="file" name="myfile1" /><br>
+    <input type="file" name="myfile2" /><br>
+    <input type="submit" value="Upload" />
+</form>
+
+</p>
+    {% endblock %}

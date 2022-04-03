@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+Done.....<br />
+<a href='{{ MEDIA_URL }}images/hidden.tif' download>here</a>
+<br>
+
+<form enctype="multipart/form-data" method="POST" action="dectimage">
+    {% csrf_token %}
+    <input type="file" name="myfile3" /><br>
+    <input type="submit" value="Upload" />
+</form>
+
+
+{% endblock %}

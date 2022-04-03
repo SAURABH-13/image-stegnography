@@ -1,0 +1,183 @@
+﻿{% load static %}
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stegnography</title>
+    <link rel="icon" href="{% static 'img/favicon.png' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu single_page_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'feat' %}">features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--::Header part end::-->
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Features</h2>
+                            <h5>home <span></span> feature</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+    
+    <!--::about_us part start::-->
+    <section class="about_us section_padding">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text">
+                        <img src="{% static 'img/icon/Icon_1.png' %}" alt="">
+                        <h2>Security</h2>
+                        <p>When security is conserned, we maintain the best security.<br>
+			   By hiding image on the top of other image using encryption we maintain the image or data security.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="{% static 'img/secu.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'img/animate_icon/Ellipse_4.png' %}" alt="" class="feature_icon_1 custom-animation1">
+    </section>
+    <!--::about_us part end::-->
+
+    <!--::about_us part start::-->
+    <section class="about_us right_time">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="{% static 'img/Data.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text">
+                        <img src="{% static 'img/icon/Icon_2.png' %}" alt="">
+                        <h2>Data Hiding</h2>
+                        <p>Hiding of information or message is achieved through hiding information in other information,thus hinding the existence of the transmitted information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'img/animate_icon/Ellipse_5.png' %}" alt="" class="feature_icon_2 custom-animation2">
+    </section>
+    <!--::about_us part end::-->
+
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <p>Created by:<br>
+				      1.Omkar Padwal<br>
+				      2.Nandeya Pandhare<br>
+				      3.Pratik Bendre<br>
+				      4.Saurabh Khurade
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+
+    <!-- jquery plugins here-->
+    <script src="{% static 'js/jquery-1.12.1.min.js' %}"></script>
+    <!-- popper js -->
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- easing js -->
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'js/swiper.min.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'js/masonry.pkgd.js' %}"></script>
+    <!-- particles js -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <!-- slick js -->
+    <script src="{% static 'js/slick.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/contact.js' %}"></script>
+    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js/jquery.form.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/mail-script.js' %}"></script>
+    <!-- custom js -->
+    <script src="{% static 'js/custom.js' %}"></script>
+</body>
+
+</html>

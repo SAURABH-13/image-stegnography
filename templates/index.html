@@ -1,0 +1,203 @@
+﻿{% load static %}
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stegnography</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand main_logo" href="index.html">
+                        <a class="navbar-brand single_page_logo" href="index.html"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'feat' %}">features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--::Header part end::-->
+
+    <!--::banner part start::-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5">
+                    <div class="banner_img d-none d-lg-block">
+                        <img src="{% static 'img/banner_img.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h1>STEGNOGRAPHY</h1>
+                            <p>Steganography is data hidden within data. Steganography is an encryption technique that can be used along with cryptography as an extra-secure method in which to protect data.Steganography techniques can be applied to images, a video file or an audio file. Typically, however, steganography is written in characters including hash marking, but its usage within images is also common. At any rate, steganography protects from pirating copyrighted materials as well as aiding in unauthorized viewing.</p>
+			    <a href="{% url 'browse1' %}" class="btn_2">Select files</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'img/animate_icon/Ellipse_7.png' %}" alt="" class="feature_icon_1 custom-animation1' %}" >
+        <img src="{% static 'img/animate_icon/Ellipse_8.png' %}" alt="" class="feature_icon_2 custom-animation2' %}">
+        <img src="{% static 'img/animate_icon/Ellipse_1.png' %}" alt="" class="feature_icon_3 custom-animation3' %}">
+        <img src="{% static 'img/animate_icon/Ellipse_2.png' %}" alt="" class="feature_icon_4 custom-animation4' %}">
+        <img src="{% static 'img/animate_icon/Ellipse_3.png' %}" alt="" class="feature_icon_5 custom-animation5' %}">
+        <img src="{% static 'img/animate_icon/Ellipse_4.png' %}" alt="" class="feature_icon_6 custom-animation6' %}">
+    </section>
+    <!--::banner part start::-->
+
+   
+    <!--::about_us part start::-->
+    <section class="about_us section_padding">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text">
+                        <img src="{% static 'img/icon/Icon_1.png' %}" alt="">
+                        <h2>Security</h2>
+                        <p>Steganography word is of
+			Greek origin and essentially means concealed
+			writing. Protection of the transmitted data from being
+			intercepted or tampered has led to the development of
+			various steganographic techniques</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="{% static 'img/secu.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'img/animate_icon/Ellipse_4.png' %}" alt="" class="feature_icon_1 custom-animation1">
+    </section>
+    <!--::about_us part end::-->
+
+    <!--::about_us part start::-->
+    <section class="about_us right_time">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="{% static 'img/Data.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text">
+                        <img src="{% static 'img/icon/Icon_2.png' %}" alt="">
+                        <h2>Data Hiding</h2>
+                        <p>Hiding of information or message is achieved through hiding information in other information,thus hinding the existence of the transmitted information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'img/animate_icon/Ellipse_5.png' %}" alt="" class="feature_icon_2 custom-animation2">
+    </section>
+    <!--::about_us part end::-->
+
+       
+   
+
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <p>Created by:<br>
+				      1.Omkar Padwal<br>
+				      2.Nandeya Pandhare<br>
+				      3.Pratik Bendre<br>
+				      4.Saurabh Khurade
+                        </p>
+                    </div>
+                </div>
+	    </div>	
+            <hr>
+            <div class="row"> 
+		<div class="col-lg-8">
+		</div>   
+                <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+
+    <!-- jquery plugins here-->
+    <script src="{% static 'js/jquery-1.12.1.min.js' %}"></script>
+    <!-- popper js -->
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- easing js -->
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'js/swiper.min.js' %}"></script>
+    <!-- swiper js -->
+    <script src="{% static 'js/masonry.pkgd.js' %}"></script>
+    <!-- particles js -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <!-- slick js -->
+    <script src="{% static 'js/slick.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/contact.js' %}"></script>
+    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js/jquery.form.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/mail-script.js' %}"></script>
+    <!-- custom js -->
+    <script src="{% static 'js/custom.js' %}"></script>
+</body>
+
+</html>
